@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debug and coverage
+coverage/
+*.pid
+*.seed
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Puppeteer temporary files
+puppeteer-screenshots/
+puppeteer-traces/
+
+# JSON data file for your project
+linkedin_data.json
+
+# Ignore anything in node_modules except for specific packages if needed
+!node_modules/some-specific-package/
